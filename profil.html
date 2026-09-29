@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil & Booking - Villa Bunaken</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+
+        <div class="brand">
+            Villa Bunaken
+        </div>
+
+        <nav class="site-nav">
+
+            <ul>
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="tentang.html">
+                        Tentang Villa
+                    </a>
+                </li>
+
+                <li>
+                    <a href="profil.html">
+                        Profil & Booking
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- BANNER -->
+    <section class="page-banner">
+
+        <img
+            src="https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?auto=format&fit=crop&w=1600&q=85"
+            alt="Pemandangan villa">
+
+        <div class="page-banner-text">
+
+            <h1>Profil Villa</h1>
+
+            <p>
+                Informasi dan pemesanan Villa Bunaken
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <main>
+
+        <!-- PROFIL -->
+        <section class="content">
+
+            <h2>Profil Villa Bunaken</h2>
+
+            <p>
+                <strong>Nama:</strong>
+                Villa Bunaken
+            </p>
+
+            <p>
+                <strong>Lokasi:</strong>
+                Bunaken, Manado, Sulawesi Utara
+            </p>
+
+            <p>
+                <strong>Jenis:</strong>
+                Villa / Penginapan
+            </p>
+
+            <p>
+                <strong>Konsep:</strong>
+                Penginapan tropis dengan suasana
+                alam dan laut.
+            </p>
+
+        </section>
+
+
+        <!-- HARGA -->
+        <section class="content">
+
+            <h2>Pilihan Penginapan</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Pilihan</th>
+
+                        <th>Kapasitas</th>
+
+                        <th>Harga / Malam</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <tr>
+
+                        <td>Standard Room</td>
+
+                        <td>2 Orang</td>
+
+                        <td>Rp 500.000</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>Family Room</td>
+
+                        <td>4 Orang</td>
+
+                        <td>Rp 800.000</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>Private Villa</td>
+
+                        <td>6 Orang</td>
+
+                        <td>Rp 1.200.000</td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+            <p class="note">
+                *Harga di atas adalah contoh untuk
+                keperluan website.
+            </p>
+
+        </section>
+
+
+        <!-- BOOKING -->
+        <section class="content">
+
+            <h2>Form Booking</h2>
+
+            <form>
+
+                <fieldset>
+
+                    <legend>
+                        Data Pemesanan
+                    </legend>
+
+
+                    <label for="nama">
+                        Nama
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nama"
+                        placeholder="Masukkan nama"
+                        required>
+
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Masukkan email"
+                        required>
+
+
+                    <label for="checkin">
+                        Tanggal Check-in
+                    </label>
+
+                    <input
+                        type="date"
+                        id="checkin"
+                        required>
+
+
+                    <label for="checkout">
+                        Tanggal Check-out
+                    </label>
+
+                    <input
+                        type="date"
+                        id="checkout"
+                        required>
+
+
+                    <label for="jumlah">
+                        Jumlah Orang
+                    </label>
+
+                    <input
+                        type="number"
+                        id="jumlah"
+                        min="1"
+                        max="10"
+                        placeholder="Jumlah orang">
+
+
+                    <label for="tipe">
+                        Pilihan Villa
+                    </label>
+
+                    <select id="tipe">
+
+                        <option>
+                            Standard Room
+                        </option>
+
+                        <option>
+                            Family Room
+                        </option>
+
+                        <option>
+                            Private Villa
+                        </option>
+
+                    </select>
+
+
+                    <label for="catatan">
+                        Catatan
+                    </label>
+
+                    <textarea
+                        id="catatan"
+                        rows="4"
+                        placeholder="Tulis permintaan khusus...">
+                    </textarea>
+
+
+                    <button type="submit">
+                        Kirim Booking
+                    </button>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+
+        <!-- KONTAK -->
+        <section class="content contact-box">
+
+            <h2>Kontak</h2>
+
+            <p>
+                📍 Bunaken, Manado, Sulawesi Utara
+            </p>
+
+            <p>
+                📞 0812-4834-0906
+            </p>
+
+            <p>
+                ✉️ info@villabunaken.com
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <h3>Villa Bunaken</h3>
+
+        <p>
+            Bunaken, Manado, Sulawesi Utara
+        </p>
+
+        <p>
+            © 2026 Villa Bunaken
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
